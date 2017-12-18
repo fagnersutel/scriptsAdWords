@@ -182,13 +182,13 @@ function sendEmail(email) {
             '<td colspan=2 align=right>',
               "<div style='font: italic normal 10pt Times New Roman, serif; " +
                   "margin: 0; color: #666; padding-right: 5px;'>" +
-                  'Powered by AdWords Scripts</div>',
+                  'Powered by Sutel</div>',
             '</td>',
           '</tr>',
           "<tr bgcolor='#3c78d8'>",
             '<td width=500>',
               "<div style='font: normal 18pt verdana, sans-serif; " +
-              "padding: 3px 10px; color: white'>Account Summary report</div>",
+              "padding: 3px 10px; color: white'>Resumo da Conta</div>",
             '</td>',
             '<td align=right>',
               "<div style='font: normal 18pt verdana, sans-serif; " +
@@ -202,13 +202,13 @@ function sendEmail(email) {
               '<td></td>',
               "<td style='font: 12pt verdana, sans-serif; " +
                   'padding: 5px 0px 5px 5px; background-color: #ddd; ' +
-                  "text-align: left'>Yesterday</td>",
+                  "text-align: left'>Ontem</td>",
               "<td style='font: 12pt verdana, sans-serif; " +
                   'padding: 5px 0px 5px 5px; background-color: #ddd; ' +
-                  "text-align: left'>Two Days Ago</td>",
+                  "text-align: left'>Dois dias atrás</td>",
               "<td style='font: 12pt verdana, sans-serif; " +
                   'padding: 5px 0px 5x 5px; background-color: #ddd; ' +
-                  "text-align: left'>A week ago</td>",
+                  "text-align: left'>Uma semana atrás</td>",
             '</tr>');
   REPORT_FIELDS.forEach(function(field) {
     html.push(emailRow(
