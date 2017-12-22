@@ -909,6 +909,8 @@ function validateAndGetSpreadsheet(spreadsheeturl) {
   }
   var spreadsheet = SpreadsheetApp.openByUrl(spreadsheeturl);
   var email = spreadsheet.getRangeByName('email').getValue();
+  //Substituir A1 pela célula correspondente
+  // var email = spreadsheet.getRange("A1").getValue();
   if (email == DEFAULT_EMPTY_EMAIL) {
     throw new Error('Please either set a custom email address in the' +
         ' spreadsheet, or set the email field in the spreadsheet to blank' +
